@@ -4,27 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c74fae47-519e-4e7e-9c3c-27dbc08b0ff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basket/BasketSplitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
+    <list default="true" id="c74fae47-519e-4e7e-9c3c-27dbc08b0ff7" name="Changes" comment="BasketSplitter class">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/emptyConfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sameItemsBasket.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basket/BasketSplitterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basket/BasketSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basket/BasketSplitter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jakubkopta"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jakubkopta/basketSplitter.git",
+    "accountId": "aaa5fab0-cdfe-4992-ac12-025b1b5eea95"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -36,8 +52,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BasketSplitter.executor": "Debug",
+    "Application.BasketSplitter.executor": "Run",
+    "JUnit.BasketSplitterTest.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplit.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitSameItemsBasket.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithBasket2.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithEmptyDeliveryOptions.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithEmptyInput.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithItemsNotFoundInDeliveryOptions.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -48,6 +73,101 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="basket" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BasketSplitterTest">
+    <configuration name="BasketSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basket.BasketSplitter" />
+      <module name="basketSplitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketSplitterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basketSplitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basket" />
+      <option name="MAIN_CLASS_NAME" value="basket.BasketSplitterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketSplitterTest.testSplitSameItemsBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basketSplitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basket" />
+      <option name="MAIN_CLASS_NAME" value="basket.BasketSplitterTest" />
+      <option name="METHOD_NAME" value="testSplitSameItemsBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketSplitterTest.testSplitWithBasket2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basketSplitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basket" />
+      <option name="MAIN_CLASS_NAME" value="basket.BasketSplitterTest" />
+      <option name="METHOD_NAME" value="testSplitWithBasket2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketSplitterTest.testSplitWithEmptyDeliveryOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basketSplitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basket" />
+      <option name="MAIN_CLASS_NAME" value="basket.BasketSplitterTest" />
+      <option name="METHOD_NAME" value="testSplitWithEmptyDeliveryOptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BasketSplitterTest" />
+        <item itemvalue="Application.BasketSplitter" />
+        <item itemvalue="JUnit.BasketSplitterTest.testSplitSameItemsBasket" />
+        <item itemvalue="JUnit.BasketSplitterTest.testSplitWithBasket2" />
+        <item itemvalue="JUnit.BasketSplitterTest.testSplitWithEmptyDeliveryOptions" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,22 +184,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712449228589</updated>
-      <workItem from="1712449229898" duration="684000" />
+      <workItem from="1712449229898" duration="4782000" />
     </task>
+    <task id="LOCAL-00001" summary="BasketSplitter class">
+      <option name="closed" value="true" />
+      <created>1712450411786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712450411786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/basket/BasketSplitter.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BasketSplitter class" />
+    <option name="LAST_COMMIT_MESSAGE" value="BasketSplitter class" />
   </component>
 </project>
