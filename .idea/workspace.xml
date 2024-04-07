@@ -29,50 +29,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jakubkopta"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jakubkopta&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jakubkopta/basketSplitter.git",
-    "accountId": "aaa5fab0-cdfe-4992-ac12-025b1b5eea95"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jakubkopta/basketSplitter.git&quot;,
+    &quot;accountId&quot;: &quot;aaa5fab0-cdfe-4992-ac12-025b1b5eea95&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ekWnrmZptDxFVKFxR6NzcdkqTp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BasketSplitter.executor": "Run",
-    "JUnit.BasketSplitterTest.executor": "Run",
-    "JUnit.BasketSplitterTest.testSplit.executor": "Run",
-    "JUnit.BasketSplitterTest.testSplitSameItemsBasket.executor": "Run",
-    "JUnit.BasketSplitterTest.testSplitWithBasket2.executor": "Run",
-    "JUnit.BasketSplitterTest.testSplitWithEmptyDeliveryOptions.executor": "Run",
-    "JUnit.BasketSplitterTest.testSplitWithEmptyInput.executor": "Run",
-    "JUnit.BasketSplitterTest.testSplitWithItemsNotFoundInDeliveryOptions.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BasketSplitter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BasketSplitterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BasketSplitterTest.testSplit.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BasketSplitterTest.testSplitSameItemsBasket.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BasketSplitterTest.testSplitWithBasket2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BasketSplitterTest.testSplitWithEmptyDeliveryOptions.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BasketSplitterTest.testSplitWithEmptyInput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BasketSplitterTest.testSplitWithItemsNotFoundInDeliveryOptions.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -81,7 +81,7 @@
       <recent name="basket" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasketSplitterTest">
+  <component name="RunManager" selected="Application.BasketSplitter">
     <configuration name="BasketSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basket.BasketSplitter" />
       <module name="basketSplitter" />
@@ -160,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BasketSplitterTest" />
         <item itemvalue="Application.BasketSplitter" />
+        <item itemvalue="JUnit.BasketSplitterTest" />
         <item itemvalue="JUnit.BasketSplitterTest.testSplitSameItemsBasket" />
         <item itemvalue="JUnit.BasketSplitterTest.testSplitWithBasket2" />
         <item itemvalue="JUnit.BasketSplitterTest.testSplitWithEmptyDeliveryOptions" />
