@@ -14,22 +14,20 @@ public class BasketSplitter {
 
     public BasketSplitter(String absolutePathToConfigFile) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        this.deliveryOptions = objectMapper.readValue(new FileReader(absolutePathToConfigFile), new TypeReference<>() {
-        });
+        this.deliveryOptions = objectMapper.readValue(new FileReader(absolutePathToConfigFile), new TypeReference<>() {});
     }
 
     public List<String> readBasketFromJson(String filePath) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        return objectMapper.readValue(new FileReader(filePath), new TypeReference<>() {
-        });
+        return objectMapper.readValue(new FileReader(filePath), new TypeReference<>() {});
     }
 
     public Map<String, List<String>> split(List<String> items) {
 
-        Map<String, List<String>> deliveryOptionsForItems = new HashMap<>();
-        Map<String, List<String>> result = new HashMap<>();
+        Map<String, List<String>> deliveryOptionsForItems = new HashMap<>(); //New Map for delivery options for items in basket
+        Map<String, List<String>> result = new HashMap<>(); //New Map for final result
 
-        for (String item : items) {
+        for (String item : items) { //fill deliveryOptionsForItems
             List<String> options = deliveryOptions.getOrDefault(item, Collections.emptyList());
             for (String option : options) {
                 deliveryOptionsForItems.computeIfAbsent(option, key -> new ArrayList<>()).add(item);
@@ -38,11 +36,11 @@ public class BasketSplitter {
 
         while (!deliveryOptionsForItems.isEmpty()) {
 
-            List<String> biggestItemsList = new ArrayList<>();
-            String biggestOption = null;
-            int maxSize = 0;
+            List<String> biggestItemsList = new ArrayList<>(); //New List with the biggest number of items for delivery
+            String biggestOption = null; //delivery option with the biggest number of items
+            int maxSize = 0; //size of the biggest number of items
 
-            for (Map.Entry<String, List<String>> entry : deliveryOptionsForItems.entrySet()) {
+            for (Map.Entry<String, List<String>> entry : deliveryOptionsForItems.entrySet()) { //find biggestItemsList and biggestOption
                 String option = entry.getKey();
                 List<String> itemsList = entry.getValue();
                 if (itemsList.size() > maxSize) {
@@ -52,14 +50,14 @@ public class BasketSplitter {
                 }
             }
 
-            result.put(biggestOption, biggestItemsList);
-            deliveryOptionsForItems.remove(biggestOption);
+            result.put(biggestOption, biggestItemsList); //add List with the biggest number of items and their delivery to result
+            deliveryOptionsForItems.remove(biggestOption); //remove what added to result from deliveryOptionsForItems
 
-            for (List<String> itemsList : deliveryOptionsForItems.values()) {
+            for (List<String> itemsList : deliveryOptionsForItems.values()) { //remove items in biggestItemsList from other lists
                 itemsList.removeAll(biggestItemsList);
             }
 
-            deliveryOptionsForItems.entrySet().removeIf(entry -> entry.getValue().isEmpty());
+            deliveryOptionsForItems.entrySet().removeIf(entry -> entry.getValue().isEmpty()); //remove deliveries with empty list of items
         }
 
         return result;
@@ -72,9 +70,8 @@ public class BasketSplitter {
         String basketJsonFile = "src/main/resources/basket-1.json";
         List<String> items = splitter.readBasketFromJson(basketJsonFile);
 
-
-        Map<String, List<String>> result = splitter.split(items);
-        for (Map.Entry<String, List<String>> entry : result.entrySet()) {
+        Map<String, List<String>> result = splitter.split(items); //execute split method
+        for (Map.Entry<String, List<String>> entry : result.entrySet()) { //display result
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
     }
