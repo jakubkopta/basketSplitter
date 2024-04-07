@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c74fae47-519e-4e7e-9c3c-27dbc08b0ff7" name="Changes" comment="BasketSplitter class">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basket-3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/emptyConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sameItemsBasket.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basket/BasketSplitterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basket/BasketSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basket/BasketSplitter.java" afterDir="false" />
-    </list>
+    <list default="true" id="c74fae47-519e-4e7e-9c3c-27dbc08b0ff7" name="Changes" comment="comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,12 +26,12 @@
     &quot;assignee&quot;: &quot;jakubkopta&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jakubkopta/basketSplitter.git&quot;,
-    &quot;accountId&quot;: &quot;aaa5fab0-cdfe-4992-ac12-025b1b5eea95&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jakubkopta/basketSplitter.git",
+    "accountId": "549828bf-e6ab-46ba-9d9d-c62c8df84d75"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -50,29 +41,33 @@
     <option name="abbreviatePackageNames" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BasketSplitter.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasketSplitterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasketSplitterTest.testSplit.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasketSplitterTest.testSplitSameItemsBasket.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasketSplitterTest.testSplitWithBasket2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasketSplitterTest.testSplitWithEmptyDeliveryOptions.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasketSplitterTest.testSplitWithEmptyInput.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasketSplitterTest.testSplitWithItemsNotFoundInDeliveryOptions.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasketSplitter.executor": "Run",
+    "JUnit.BasketSplitterTest.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplit.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitSameItemsBasket.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithBasket2.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithEmptyDeliveryOptions.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithEmptyInput.executor": "Run",
+    "JUnit.BasketSplitterTest.testSplitWithItemsNotFoundInDeliveryOptions.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jakub/basketSplitter",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -185,6 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712449228589</updated>
       <workItem from="1712449229898" duration="4782000" />
+      <workItem from="1712456820869" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="BasketSplitter class">
       <option name="closed" value="true" />
@@ -194,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712450411786</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add readme file">
+      <option name="closed" value="true" />
+      <created>1712457028633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712457028633</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comments">
+      <option name="closed" value="true" />
+      <created>1712458027564</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712458027564</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BasketSplitter class" />
-    <option name="LAST_COMMIT_MESSAGE" value="BasketSplitter class" />
+    <MESSAGE value="add readme file" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
   </component>
 </project>
